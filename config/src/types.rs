@@ -116,7 +116,7 @@ impl Default for MinerConfig {
 			run_tui: false,
 			miner_plugin_dir: None,
 			miner_plugin_config: vec![],
-			stratum_server_addr: String::from("http://127.0.0.1:13416"),
+			stratum_server_addr: String::from("http://127.0.0.1:16816"),
 			stratum_server_login: None,
 			stratum_server_password: None,
 			stratum_server_tls_enabled: None,
