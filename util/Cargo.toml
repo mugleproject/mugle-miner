@@ -1,0 +1,19 @@
+[package]
+name = "mugle_miner_util"
+version = "4.0.0"
+authors = ["Mugle Developers <mimblewimble@lists.launchpad.net>"]
+description = "Utilities for the mugle miner"
+repository = "https://github.com/mugleproject/mugle-miner"
+license = "Apache-2.0"
+workspace = ".."
+
+[dependencies]
+backtrace = "0.3"
+byteorder = "1"
+lazy_static = "1"
+rand = "0.7"
+serde = "1"
+serde_derive = "1"
+slog = { version = "2", features = ["max_level_trace", "release_max_level_trace"] }
+slog-term = "2"
+slog-async = "2"

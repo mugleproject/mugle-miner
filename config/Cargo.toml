@@ -1,0 +1,17 @@
+[package]
+name = "mugle_miner_config"
+version = "4.0.0"
+authors = ["Mugle Developers <mimblewimble@lists.launchpad.net>"]
+description = "Configuration handling for the mugle miner"
+license = "Apache-2.0"
+repository = "https://github.com/mugleproject/mugle-miner"
+workspace = ".."
+
+[dependencies]
+cuckoo_miner = { path = "../cuckoo-miner", version = "4.0.0" }
+dirs = "2"
+mugle_miner_util = { path = "../util", version = "4.0.0" }
+serde = "1"
+serde_derive = "1"
+slog = { version = "2", features = ["max_level_trace", "release_max_level_trace"] }
+toml = "0.5"
